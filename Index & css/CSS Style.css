@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family:Times;
+    font-weight: 400;
+    font-size: 20px;
+    color: #292929;
+    position: relative;
+    min-height: 100vh;
+}
+
+.nav-link {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+}
+
+.hier-intro {
+    padding: 40px 0 60px 0;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0 32px 0 !important;
+    color: #C3C9D4;
+}
+
+.hier-container {
+    padding-bottom: 8rem;
+}
+
+/*Primary Typography*/
+h1 {
+    font-size: 2.441rem;
+    padding-bottom: 0.279rem;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding-bottom: 0.667rem;
+}
+
+.homepage-header {
+    font-size: 3.052rem;
+    margin-bottom: 1rem;
+}
+
+code {
+    color: #8794AA;
+    font-size: .875rem;
+}
+
+
+/*Lucida Sans Typography*/
+.lucida {
+    font-family:lucida Sans;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.lucida h1 {
+    font-size: 90px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lucida h2 {
+    font-size: 70px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lucida h3 {
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lucida h4 {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lucida em {
+    font-size: 20;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.lucida a {
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(0, 76%, 43%);
+    text-decoration: underline;
+}
+
+.lucida a:hover {
+    color: hwb(309 40% 27%);
+    text-decoration: none;
+}
+
+.lucida .hover {
+    font-size: 14px;
+    font-weight: 300;
+    color:  hwb(258 37% 27%);
+}
+
+/*Times & Helvetica Typography*/
+.TimesHel {
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TimesHel h1 {
+    font-family:Times;
+    font-size: 105px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TimesHel h2 {
+    font-family: Times;
+    font-size: 78.93px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TimesHel h3 {
+    font-family: Times;
+    font-size: 59.21px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TimesHel h4 {
+    font-family:Times;
+    font-size: 44.42px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TimesHel em {
+    font-size: 25px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.TimesHel a {
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(125, 83%, 34%);
+    text-decoration: underline;
+}
+
+.TimesHel a:hover {
+    color: hwb(128 73% 15%);
+    text-decoration: none;
+}
+
+.TimesHel .hover {
+    font-size: 13px;
+    font-weight: 300;
+    color: hsl(201, 36%, 64%);
+}
+
+/*Impact & Tahoma Typography*/
+.ImpactTaho {
+    font-family:Tahoma;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ImpactTaho h1 {
+    font-family: Impact;
+    font-size: 50px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ImpactTaho h2 {
+    font-family: Impact;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ImpactTaho h3 {
+    font-family: Impact;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ImpactTaho h4 {
+    font-family: Impact;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ImpactTaho em {
+    font-size: 16px;
+    font-weight: 725;
+    font-style: italic;
+}
+
+.ImpactTaho a {
+    font-size: 17x;
+    font-weight: 400;
+    color: #4a2f94;
+    text-decoration: underline;
+    
+}
+
+.ImpactTaho a:hover {
+    color: hwb(234 52% 31%);
+    text-decoration: none;
+}
+
+.ImpactTaho .hover {
+    font-size: 15px;
+    font-weight: 300;
+    color: hwb(312 48% 32%);
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 1.5rem 0 3rem 0;
+    height: 5rem;
+    bottom: 0;
+    height: 3.6rem;
+    text-align: center;
+}
+
+.footer-link {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Specs Section */
+.specs {
+    padding-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .specs {
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+    }
+}
